@@ -1,0 +1,87 @@
+<svg width="800" height="500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="500" fill="#f5f5f5"/>
+  
+  <!-- Header -->
+  <rect width="800" height="60" fill="#1976d2"/>
+  <text x="20" y="35" font-family="Arial" font-size="18" fill="white">Weather Admin Dashboard</text>
+  <circle cx="750" cy="30" r="15" fill="white" opacity="0.7"/>
+  <circle cx="710" cy="30" r="15" fill="white" opacity="0.7"/>
+  <circle cx="670" cy="30" r="15" fill="white" opacity="0.7"/>
+  
+  <!-- Sidebar -->
+  <rect x="0" y="60" width="200" height="440" fill="#ffffff"/>
+  <text x="50" y="125" font-family="Arial" font-size="14" fill="#757575">Dashboard</text>
+  <rect x="0" y="140" width="200" height="40" fill="#e3f2fd"/>
+  <text x="50" y="165" font-family="Arial" font-size="14" fill="#1976d2">User Management</text>
+  <text x="50" y="205" font-family="Arial" font-size="14" fill="#757575">Disaster Forecast</text>
+  <text x="50" y="245" font-family="Arial" font-size="14" fill="#757575">Notifications</text>
+  <text x="50" y="285" font-family="Arial" font-size="14" fill="#757575">Sensor Data</text>
+  <text x="50" y="325" font-family="Arial" font-size="14" fill="#757575">Reports</text>
+  <text x="50" y="365" font-family="Arial" font-size="14" fill="#757575">AI Forecast</text>
+  <text x="50" y="405" font-family="Arial" font-size="14" fill="#757575">Settings</text>
+  
+  <!-- Main Content -->
+  <text x="220" y="90" font-family="Arial" font-size="20" font-weight="bold" fill="#333333">User Management</text>
+  
+  <!-- Search and Add User -->
+  <rect x="220" y="110" width="300" height="40" rx="4" fill="#ffffff" stroke="#e0e0e0"/>
+  <text x="240" y="135" font-family="Arial" font-size="14" fill="#9e9e9e">Search users...</text>
+  
+  <rect x="680" y="110" width="120" height="40" rx="4" fill="#4caf50"/>
+  <text x="705" y="135" font-family="Arial" font-size="14" fill="white">Add User</text>
+  
+  <!-- User Table -->
+  <rect x="220" y="170" width="580" height="320" rx="4" fill="#ffffff" stroke="#e0e0e0"/>
+  
+  <!-- Table Header -->
+  <rect x="220" y="170" width="580" height="40" fill="#f5f5f5" stroke="#e0e0e0"/>
+  <text x="240" y="195" font-family="Arial" font-size="14" font-weight="bold" fill="#333333">Name</text>
+  <text x="380" y="195" font-family="Arial" font-size="14" font-weight="bold" fill="#333333">Email</text>
+  <text x="580" y="195" font-family="Arial" font-size="14" font-weight="bold" fill="#333333">Role</text>
+  <text x="700" y="195" font-family="Arial" font-size="14" font-weight="bold" fill="#333333">Actions</text>
+  
+  <!-- Table Rows -->
+  <line x1="220" y1="210" x2="800" y2="210" stroke="#e0e0e0" stroke-width="1"/>
+  <text x="240" y="235" font-family="Arial" font-size="14" fill="#333333">John Smith</text>
+  <text x="380" y="235" font-family="Arial" font-size="14" fill="#333333">john.smith@example.com</text>
+  <text x="580" y="235" font-family="Arial" font-size="14" fill="#333333">Admin</text>
+  <rect x="700" y="220" width="30" height="20" rx="4" fill="#2196f3"/>
+  <rect x="740" y="220" width="30" height="20" rx="4" fill="#f44336"/>
+  
+  <line x1="220" y1="250" x2="800" y2="250" stroke="#e0e0e0" stroke-width="1"/>
+  <text x="240" y="275" font-family="Arial" font-size="14" fill="#333333">Jane Doe</text>
+  <text x="380" y="275" font-family="Arial" font-size="14" fill="#333333">jane.doe@example.com</text>
+  <text x="580" y="275" font-family="Arial" font-size="14" fill="#333333">Operator</text>
+  <rect x="700" y="260" width="30" height="20" rx="4" fill="#2196f3"/>
+  <rect x="740" y="260" width="30" height="20" rx="4" fill="#f44336"/>
+  
+  <line x1="220" y1="290" x2="800" y2="290" stroke="#e0e0e0" stroke-width="1"/>
+  <text x="240" y="315" font-family="Arial" font-size="14" fill="#333333">Robert Johnson</text>
+  <text x="380" y="315" font-family="Arial" font-size="14" fill="#333333">robert.j@example.com</text>
+  <text x="580" y="315" font-family="Arial" font-size="14" fill="#333333">Viewer</text>
+  <rect x="700" y="300" width="30" height="20" rx="4" fill="#2196f3"/>
+  <rect x="740" y="300" width="30" height="20" rx="4" fill="#f44336"/>
+  
+  <line x1="220" y1="330" x2="800" y2="330" stroke="#e0e0e0" stroke-width="1"/>
+  <text x="240" y="355" font-family="Arial" font-size="14" fill="#333333">Sarah Williams</text>
+  <text x="380" y="355" font-family="Arial" font-size="14" fill="#333333">sarah.w@example.com</text>
+  <text x="580" y="355" font-family="Arial" font-size="14" fill="#333333">Admin</text>
+  <rect x="700" y="340" width="30" height="20" rx="4" fill="#2196f3"/>
+  <rect x="740" y="340" width="30" height="20" rx="4" fill="#f44336"/>
+  
+  <line x1="220" y1="370" x2="800" y2="370" stroke="#e0e0e0" stroke-width="1"/>
+  <text x="240" y="395" font-family="Arial" font-size="14" fill="#333333">Michael Brown</text>
+  <text x="380" y="395" font-family="Arial" font-size="14" fill="#333333">michael.b@example.com</text>
+  <text x="580" y="395" font-family="Arial" font-size="14" fill="#333333">Operator</text>
+  <rect x="700" y="380" width="30" height="20" rx="4" fill="#2196f3"/>
+  <rect x="740" y="380" width="30" height="20" rx="4" fill="#f44336"/>
+  
+  <!-- Pagination -->
+  <rect x="220" y="450" width="580" height="40" fill="#ffffff" stroke="#e0e0e0"/>
+  <text x="240" y="475" font-family="Arial" font-size="14" fill="#333333">Showing 1-5 of 25 users</text>
+  <rect x="700" y="455" width="30" height="30" rx="4" fill="#f5f5f5" stroke="#e0e0e0"/>
+  <text x="710" y="475" font-family="Arial" font-size="14" fill="#333333">1</text>
+  <rect x="740" y="455" width="30" height="30" rx="4" fill="#ffffff" stroke="#e0e0e0"/>
+  <text x="750" y="475" font-family="Arial" font-size="14" fill="#333333">2</text>
+</svg>

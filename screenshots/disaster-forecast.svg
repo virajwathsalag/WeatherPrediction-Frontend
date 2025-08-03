@@ -1,0 +1,71 @@
+<svg width="800" height="500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="500" fill="#f5f5f5"/>
+  
+  <!-- Header -->
+  <rect width="800" height="60" fill="#1976d2"/>
+  <text x="20" y="35" font-family="Arial" font-size="18" fill="white">Weather Admin Dashboard</text>
+  <circle cx="750" cy="30" r="15" fill="white" opacity="0.7"/>
+  <circle cx="710" cy="30" r="15" fill="white" opacity="0.7"/>
+  <circle cx="670" cy="30" r="15" fill="white" opacity="0.7"/>
+  
+  <!-- Sidebar -->
+  <rect x="0" y="60" width="200" height="440" fill="#ffffff"/>
+  <text x="50" y="125" font-family="Arial" font-size="14" fill="#757575">Dashboard</text>
+  <text x="50" y="165" font-family="Arial" font-size="14" fill="#757575">User Management</text>
+  <rect x="0" y="180" width="200" height="40" fill="#e3f2fd"/>
+  <text x="50" y="205" font-family="Arial" font-size="14" fill="#1976d2">Disaster Forecast</text>
+  <text x="50" y="245" font-family="Arial" font-size="14" fill="#757575">Notifications</text>
+  <text x="50" y="285" font-family="Arial" font-size="14" fill="#757575">Sensor Data</text>
+  <text x="50" y="325" font-family="Arial" font-size="14" fill="#757575">Reports</text>
+  <text x="50" y="365" font-family="Arial" font-size="14" fill="#757575">AI Forecast</text>
+  <text x="50" y="405" font-family="Arial" font-size="14" fill="#757575">Settings</text>
+  
+  <!-- Main Content -->
+  <text x="220" y="90" font-family="Arial" font-size="20" font-weight="bold" fill="#333333">Disaster Forecast</text>
+  
+  <!-- Filter and Add Warning -->
+  <rect x="220" y="110" width="200" height="40" rx="4" fill="#ffffff" stroke="#e0e0e0"/>
+  <text x="240" y="135" font-family="Arial" font-size="14" fill="#333333">Filter by Status</text>
+  <polygon points="400,125 410,115 410,135" fill="#757575"/>
+  
+  <rect x="680" y="110" width="120" height="40" rx="4" fill="#f44336"/>
+  <text x="695" y="135" font-family="Arial" font-size="14" fill="white">Add Warning</text>
+  
+  <!-- Warning Cards -->
+  <rect x="220" y="170" width="280" height="150" rx="4" fill="#ffffff" stroke="#e0e0e0"/>
+  <rect x="220" y="170" width="280" height="40" fill="#f44336"/>
+  <text x="240" y="195" font-family="Arial" font-size="16" font-weight="bold" fill="white">Severe Thunderstorm</text>
+  <text x="240" y="230" font-family="Arial" font-size="14" fill="#333333">Location: Northern Region</text>
+  <text x="240" y="255" font-family="Arial" font-size="14" fill="#333333">Expected: Aug 3, 2023 - 15:00</text>
+  <text x="240" y="280" font-family="Arial" font-size="14" fill="#333333">Status: Active</text>
+  <rect x="400" y="280" width="80" height="30" rx="4" fill="#2196f3"/>
+  <text x="420" y="300" font-family="Arial" font-size="12" fill="white">Details</text>
+  
+  <rect x="520" y="170" width="280" height="150" rx="4" fill="#ffffff" stroke="#e0e0e0"/>
+  <rect x="520" y="170" width="280" height="40" fill="#ff9800"/>
+  <text x="540" y="195" font-family="Arial" font-size="16" font-weight="bold" fill="white">Flash Flood Warning</text>
+  <text x="540" y="230" font-family="Arial" font-size="14" fill="#333333">Location: Eastern Valley</text>
+  <text x="540" y="255" font-family="Arial" font-size="14" fill="#333333">Expected: Aug 4, 2023 - 08:00</text>
+  <text x="540" y="280" font-family="Arial" font-size="14" fill="#333333">Status: Pending</text>
+  <rect x="700" y="280" width="80" height="30" rx="4" fill="#2196f3"/>
+  <text x="720" y="300" font-family="Arial" font-size="12" fill="white">Details</text>
+  
+  <rect x="220" y="340" width="280" height="150" rx="4" fill="#ffffff" stroke="#e0e0e0"/>
+  <rect x="220" y="340" width="280" height="40" fill="#9c27b0"/>
+  <text x="240" y="365" font-family="Arial" font-size="16" font-weight="bold" fill="white">Hurricane Alert</text>
+  <text x="240" y="400" font-family="Arial" font-size="14" fill="#333333">Location: Coastal Areas</text>
+  <text x="240" y="425" font-family="Arial" font-size="14" fill="#333333">Expected: Aug 5, 2023 - 12:00</text>
+  <text x="240" y="450" font-family="Arial" font-size="14" fill="#333333">Status: Monitoring</text>
+  <rect x="400" y="450" width="80" height="30" rx="4" fill="#2196f3"/>
+  <text x="420" y="470" font-family="Arial" font-size="12" fill="white">Details</text>
+  
+  <rect x="520" y="340" width="280" height="150" rx="4" fill="#ffffff" stroke="#e0e0e0"/>
+  <rect x="520" y="340" width="280" height="40" fill="#4caf50"/>
+  <text x="540" y="365" font-family="Arial" font-size="16" font-weight="bold" fill="white">Heatwave Advisory</text>
+  <text x="540" y="400" font-family="Arial" font-size="14" fill="#333333">Location: Southern Region</text>
+  <text x="540" y="425" font-family="Arial" font-size="14" fill="#333333">Expected: Aug 6-10, 2023</text>
+  <text x="540" y="450" font-family="Arial" font-size="14" fill="#333333">Status: Issued</text>
+  <rect x="700" y="450" width="80" height="30" rx="4" fill="#2196f3"/>
+  <text x="720" y="470" font-family="Arial" font-size="12" fill="white">Details</text>
+</svg>
